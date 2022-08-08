@@ -1,1 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  margin-top: 60px;
+}
+
+.carta {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.palo {
+  height: 25%;
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 90px;
+}
+
+.numero {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 120px;
+}
+
+.palo2 {
+  height: 25%;
+  width: 100%;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 90px;
+  transform: scale(1, -1);
+}
+
+.diamante,
+.corazon {
+  color: red;
+}
+
+.trebol,
+.picas {
+  color: black;
+}
